@@ -16,6 +16,6 @@ function fareTripler(fare) {
   return createFareMultiplier(3)(fare);
 }
 
-function selectDifferentDrivers(drivers, function) {
-  return function(drivers);
+function selectDifferentDrivers(drivers, func) {
+  return func(drivers);
 }
