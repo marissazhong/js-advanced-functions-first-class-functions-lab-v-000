@@ -9,5 +9,5 @@ function createFareMultiplier(int) {
 }
 
 function fareDoubler(fare) {
-  createFareMultiplier(2)(fare);
+  return createFareMultiplier(2)(fare);
 }
